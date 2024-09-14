@@ -40,9 +40,9 @@ const dofaData = [
 
 const diagnostic = () => {
     return (
-        <section>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4 pl-6">1. Current diagnostic</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+        <section className="p-6 bg-white shadow-lg rounded-lg">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">1. Current diagnostic</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {dofaData.map((category) => (
                     <div
                         key={category.id}
