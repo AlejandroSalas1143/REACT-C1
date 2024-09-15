@@ -2,7 +2,7 @@ import appleicon from '../assets/icono_apple.svg';
 
 const Header = () => {
     return (
-        <header>
+        <header className="bg-gray-100">
             <nav className="flex flex-wrap justify-between items-center p-5">
                 {/* Logo y título */}
                 <div className="flex items-center justify-center">
