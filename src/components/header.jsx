@@ -4,7 +4,6 @@ const Header = () => {
     return (
         <header className="bg-gray-100">
             <nav className="flex flex-wrap justify-between items-center p-5">
-                {/* Logo y título */}
                 <div className="flex items-center justify-center">
                     <a href="#">
                         <img src={appleicon} alt="apple icon" className="w-10 h-10 sm:w-12 sm:h-12" />
@@ -13,11 +12,10 @@ const Header = () => {
                     
                 </div>
                 
-                {/* Menú */}
                 <ul className="flex gap-3 sm:gap-5 mt-4 sm:mt-0">
                     <li className="list-none">
                         <a href="#" className="no-underline text-black py-2 px-4 sm:px-5 hover:bg-blue-700 hover:rounded-lg hover:text-white hover:shadow-md">
-                            Overview
+                            Home
                         </a>
                     </li>
                     <li className="list-none">
@@ -27,7 +25,7 @@ const Header = () => {
                     </li>
                     <li className="list-none">
                         <a href="#" className="no-underline text-black py-2 px-4 sm:px-5 hover:bg-blue-700 hover:rounded-lg hover:text-white hover:shadow-md">
-                            Buy
+                            Support
                         </a>
                     </li>
                 </ul>

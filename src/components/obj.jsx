@@ -25,12 +25,12 @@ const goalsData = [
           <table className="min-w-full table-auto rounded-lg overflow-hidden">
             <thead>
               <tr className="bg-blue-800 text-white">
-                <th className="py-2 px-4">Code</th>
-                <th className="py-2 px-4">Objective</th>
-                <th className="py-2 px-4">Target</th>
-                <th className="py-2 px-4">Progress</th>
-                <th className="py-2 px-4">Compliance</th>
-                <th className="py-2 px-4">Status</th>
+                <th className="py-2 px-4 text-start">Code</th>
+                <th className="py-2 px-4 text-start">Objective</th>
+                <th className="py-2 px-4 text-start">Target</th>
+                <th className="py-2 px-4 text-start">Progress</th>
+                <th className="py-2 px-4 text-start">Compliance</th>
+                <th className="py-2 px-4 text-start">Status</th>
               </tr>
             </thead>
             <tbody>
